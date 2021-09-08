@@ -1,0 +1,15 @@
+$primarybutton :rgb(237, 189, 69);
+
+Header {
+background-color: aquamarine;
+display: flex;
+justify-content: center;
+}
+
+header button {
+    color: $primarybutton;
+}
+
+.contact button {
+    color:$primarybutton;
+}
