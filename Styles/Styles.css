@@ -1,3 +1,7 @@
+/* Seperated code into multiple files and here I am importing it to the main file */
+/* Added three different variables for the text */
+/* Added one main mixin that I used for both sections*/
+/* Added the mixin above to the header, also used nesting*/
 header {
   height: 90vh;
   display: -webkit-box;
@@ -26,6 +30,7 @@ header button:hover {
   background: #d5bb9d;
 }
 
+/* Here is the second half of the page, used nesting for the button and hover effect*/
 .contact {
   color: #aa1155;
   height: 90vh;

@@ -1,9 +1,15 @@
+/* Seperated code into multiple files and here I am importing it to the main file */
+
 @import "./variables";
 @import "./header";
 
 
+/* Here is the second half of the page, used nesting for the button and hover effect*/
+
 .contact {
     color: $textColor;
+
+    /* Mixin added for the second half of the page as well*/
     @include flexCenter;
     background: rgb(232, 219, 203);
     

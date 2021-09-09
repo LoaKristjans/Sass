@@ -1,3 +1,5 @@
+/* Added one main mixin that I used for both sections*/
+
 @mixin flexCenter {
     height: 90vh;
     display: flex;
@@ -6,6 +8,7 @@
     flex-direction: column;
 }
 
+/* Added the mixin above to the header, also used nesting*/
 
 header {
 
