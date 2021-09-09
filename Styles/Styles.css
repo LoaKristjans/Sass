@@ -1,18 +1,56 @@
-Header {
-  background-color: aquamarine;
+header {
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #d79f86;
+  color: #aa1155;
 }
 
 header button {
-  color: #edbd45;
+  background: #f5eee6;
+  color: black;
+}
+
+header button:hover {
+  background: #d5bb9d;
+}
+
+.contact {
+  color: #aa1155;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #e8dbcb;
 }
 
 .contact button {
-  color: #edbd45;
+  background: #f5eee6;
+  color: black;
+}
+
+.contact button:hover {
+  background: #d5bb9d;
 }
 /*# sourceMappingURL=Styles.css.map */

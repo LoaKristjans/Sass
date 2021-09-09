@@ -1,15 +1,17 @@
-$primarybutton :rgb(237, 189, 69);
+@import "./variables";
+@import "./header";
 
-Header {
-background-color: aquamarine;
-display: flex;
-justify-content: center;
-}
 
-header button {
-    color: $primarybutton;
-}
+.contact {
+    color: $textColor;
+    @include flexCenter;
+    background: rgb(232, 219, 203);
+    
 
-.contact button {
-    color:$primarybutton;
+    button{    background: $primarybutton;
+        color: black;
+        &:hover{
+            background: $hoverColor;
+        }
+    }
 }
